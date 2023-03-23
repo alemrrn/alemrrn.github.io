@@ -25,7 +25,7 @@ main .logo img:hover { transform: scale(1.15); }
 
 main .logo img {
     transition: transform .2s;
-    width: 250px;
+    width: 220px;
     height: 200px;
 }
 
