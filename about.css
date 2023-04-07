@@ -16,6 +16,12 @@ a:active {text-decoration: none;}
 
 a:link, a:visited { color: white; }
 
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 header nav ul {
     display: flex;
     justify-content: center;
