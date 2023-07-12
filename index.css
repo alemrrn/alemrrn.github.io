@@ -16,6 +16,7 @@ a:active {text-decoration: none;}
 
 a:link, a:visited { color: white; }
 
+  
 header nav {
     position: fixed;
     top: 0;
@@ -82,7 +83,7 @@ main .socialMenu .socials .social {
 
 main .socialMenu .socials .social:hover { transform: scale(1.15); }
 
-#insta:hover {
+#insta:hover, #th:hover {
     background: #f09433; 
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
