@@ -57,13 +57,38 @@ main .logo img {
     height: 200px;
 }
 
-main .socialMenu {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main .socialMenu {
     display: flex;
     justify-content: center;
     margin-top: 100px;   
-}
+} */
 
-main .socialMenu .socials {
+/* main .socialMenu .socials {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -101,4 +126,4 @@ main .socialMenu .socials .social:hover { transform: scale(1.15); }
 
 #tw:hover {
     background-color: #00acee;
-}
+} */
