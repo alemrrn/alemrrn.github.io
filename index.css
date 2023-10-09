@@ -77,7 +77,14 @@ main .logo img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 15px;
+    transition: transform .2s;
+    cursor: pointer;
 }
+
+.card:hover {
+    transform: scale(1.15);
+}
+
 .profile-image {
     width: 100px;
     height: 100px;
