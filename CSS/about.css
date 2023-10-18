@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-color: #353535;
+}
+
+a:link {text-decoration: none;}
+  
+a:visited {text-decoration: none;}
+  
+a:hover {text-decoration: none;}
+  
+a:active {text-decoration: none;}
+
+a:link, a:visited { color: white; }
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+header nav ul li:hover {
+    background-color: #353535;
+}
+
+main .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; 
+ }
+ 
+ main .logo img:hover { transform: scale(1.15); }
+ 
+ main .logo img {
+     transition: transform .2s;
+     width: 220px;
+     height: 200px;
+ }
+
+main .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+main .content {
+    display: flex;
+    justify-content: center;
+}
+
+main .content .textBox {
+    color: white;
+    font-size: 18px;
+    background-color: #202020;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
