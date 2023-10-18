@@ -51,7 +51,7 @@ main .logo {
  main .logo img:hover { transform: scale(1.15); }
  
  main .logo img {
-     transition: transform .2s;
+     transition: transform .4s;
      width: 220px;
      height: 200px;
  }

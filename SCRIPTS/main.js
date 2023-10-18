@@ -1,12 +1,12 @@
 function changeImage(imageClass, newImage) {
-    let image = document.querySelector('.logo');
+    let image = document.querySelector('.logoImage');
     image.src = newImage;
 }
 
-document.querySelector('.logo').addEventListener("mouseover", ()=>{
-    changeImage('.logo', "/ASSETS/logo2.png");
+document.querySelector('.logoImage').addEventListener("mouseover", ()=>{
+    changeImage('.logoImage', "/ASSETS/logo2.png");
 })
 
-document.querySelector('.logo').addEventListener("mouseout", ()=>{
-    changeImage('.logo', "/ASSETS/logo.png");
+document.querySelector('.logoImage').addEventListener("mouseout", ()=>{
+    changeImage('.logoImage', "/ASSETS/logo.jpg");
 })
