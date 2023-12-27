@@ -31,14 +31,14 @@ header nav {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #202020;
+  border-radius: 0 0 35px 35px;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
-  background-color: #202020;
   margin: 10px;
-  border-radius: 15px;
   padding: 0;
   list-style-type: none;
 }
